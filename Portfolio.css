@@ -1,0 +1,302 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+ 
+}
+html {
+    scroll-behavior: smooth;
+}
+.headings
+{
+    font-size: 45px;
+    text-align: center;
+}
+.logo
+{
+    width: 210px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#hero
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    margin-top: -3.5%;
+}
+nav
+{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover
+{
+    color: red;
+    font-size: 22px;
+}
+
+#detel
+{
+    margin-left: 8%;
+    margin-top: 6%;
+}
+
+#detel h1
+{
+    font-size: 60px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span
+{
+    color: orange;
+}
+
+#detel p
+{
+    color: rgb(46, 43, 43);
+    font-size: 22px;
+}
+
+#detel a
+{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+#detel a:hover
+{
+    color: black;
+    background-color:lightgray
+}
+
+.images
+{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img
+{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s ;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 550px;
+    height: 450px;margin-bottom: 10%;
+}
+
+.images:hover .shape
+{
+    bottom: -40px;
+}
+
+
+/* About section */
+
+.aboutp1 {
+    font-size: 22px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.pic {
+    display: flex;
+}
+
+#pic img {
+    width: 500px;
+    height: 400px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Portflio Section */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+
+}
+
+/* Projects Secton */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 25px rgb(255, 45, 45);
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+/* Contacts section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+.form-h3 {
+    font-size: 40px;
+    font-family: century;
+
+}
+
+#send {
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: century;
+
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
